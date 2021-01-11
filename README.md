@@ -6,7 +6,7 @@
 
 <div align="center">
 
-[React](https://reactjs.org/) components for faster and simpler web development.
+[React](https://reactjs.org/) component for faster and simpler web development.
 <!--
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/mui-org/material-ui/blob/master/LICENSE)
 [![npm latest package](https://img.shields.io/npm/v/@material-ui/core/latest.svg)](https://www.npmjs.com/package/@material-ui/core)
@@ -31,7 +31,6 @@ MpDS TextField is available as an [npm package](https://www.npmjs.com/package/mp
 npm install mpds-textfield-f3m
 
 ```
-
 ## Usage
 
 Here is a quick example to get you started, **it's all you need**:
@@ -46,6 +45,163 @@ function App() {
 
 ReactDOM.render(<App />, document.querySelector('#app'));
 ```
+
+<h4>Props</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th><th>Description</th><th>Default</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <span>classes</span>
+          </td><td>
+            <div>
+              <span>Classes in the root of the textfield.</span>
+            </div>
+            <div>
+              <div>
+                <span>string</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <span>-</span>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <span>id</span>
+          </td>
+          <td>
+            <div>
+              <span>Id of the textfield.</span>
+            </div>
+            <div>
+            <div>
+              <span>string</span>
+            </div>
+          </div>
+        </td>
+        <td>
+          <span>-</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <span>inputLabelProps</span>
+        </td>
+        <td>
+          <div>
+            <span>Props applied to the InputLabel element. (Check Material UI TextField API for more information).
+            </span>
+          </div>
+          <div>
+            <span>Partial&lt;InputLabelProps&gt;</span>
+          </div>
+        </td>
+        <td>
+          <span>-</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <span>labelText</span>
+          <span title="Required">*</span>
+        </td>
+        <td>
+          <div>
+            <span>The label content.</span>
+          </div>
+          <div>
+          <div>
+            <span>string</span>
+          </div>
+        </div>
+      </td>
+      <td>
+        <span>-</span>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span>placeholder</span>
+      </td>
+    <td>
+      <div>
+        <span>The short hint displayed in the input before the user enters a value.
+        </span>
+      </div>
+      <div>
+        <div>
+          <span>string</span>
+        </div>
+      </div>
+    </td>
+    <td>
+      <span>-</span>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <span>onChangeInput</span>
+    </td>
+    <td>
+      <div>
+        <span>Callback fired when the value is changed.</span>
+      </div>
+      <div>
+        <span>((event: ChangeEvent&lt;HTMLInputElement | HTMLTextAreaElement&gt;) =&gt; void)</span>
+      </div>
+    </td>
+    <td>
+      <span>-</span>
+    </td>
+    </tr>
+    <tr>
+      <td>
+        <span>defaultValueInput</span>
+      </td>
+    <td>
+    <div>
+      <span>The default value of the input.</span>
+    </div>
+    <div>
+      <div>
+        <span>string</span>
+      </div>
+    </div>
+  </td>
+  <td>
+    <span>-</span>
+  </td>
+  </tr>
+  <tr>
+    <td>
+      <span>widthOfTextfield</span>
+    </td>
+    <td>
+      <div>
+        <span>The width value of the input.</span>
+      </div>
+      <div>
+        <div>
+          <span>string</span>
+          <span>number</span>
+        </div>
+      </div>
+    </td>
+      <td>
+        <div>
+          <span>200px</span>
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 Yes, it's really all you need to get started! Try it in:
 [CodeSandbox](https://codesandbox.io/)
