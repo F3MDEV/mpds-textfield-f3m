@@ -202,7 +202,7 @@ ReactDOM.render(<App />, document.querySelector('#app'));
     </tr>
   </tbody>
 </table>
-
+<br>
 Yes, it's really all you need to get started! Try it in:
 [CodeSandbox](https://codesandbox.io/)
 
