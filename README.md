@@ -1,8 +1,8 @@
 <p align="center">
-  <a href="https://mpds.f3m.pt/" rel="noopener" target="_blank"><img width="150" src="./assets/logo_MPDS.svg" alt="MPDS logo"></a></p>
+  <a href="https://mpds.f3m.pt/" rel="noopener" target="_blank"><img width="150" src="https://imgur.com/OANOfLI" alt="MPDS logo"></a></p>
 </p>
 
-<h1 align="center">MpDS</h1>
+<h1 align="center">MpDS TextField</h1>
 
 <div align="center">
 
@@ -28,15 +28,10 @@ Material-UI is available as an [npm package](https://www.npmjs.com/package/@mate
 
 ```sh
 // with npm
-npm install @material-ui/core
+npm install mpds-textfield-f3m
 
 ```
 
-```sh
-// with npm
-npm install npm i mpds-textfield-f3m
-
-```
 ## Usage
 
 Here is a quick example to get you started, **it's all you need**:
