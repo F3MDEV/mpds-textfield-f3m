@@ -48,7 +48,7 @@ ReactDOM.render(<App />, document.querySelector('#app'));
 ```
 
 Yes, it's really all you need to get started! Try it in:
-[CodeSandBOX](https://codesandbox.io/)
+[CodeSandbox](https://codesandbox.io/)
 
 ## License
 
