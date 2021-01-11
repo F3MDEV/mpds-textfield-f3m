@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://mpds.f3m.pt/" rel="noopener" target="_blank"><img width="150" src="https://i.imgur.com/OANOfLI.png" alt="MPDS logo"></a></p>
+  <a href="https://mpds.f3m.pt/" rel="noopener" target="_blank"><img width="350" src="https://i.imgur.com/OANOfLI.png" alt="MPDS logo"></a></p>
 </p>
 
 <h1 align="center">MpDS TextField</h1>
@@ -38,7 +38,6 @@ Here is a quick example to get you started, **it's all you need**:
 
 ```tsx
 import * as React from "react";
-import "./styles.css";
 import MpdsTextfield from "mpds-textfield-f3m"
 
 function App() {
@@ -49,7 +48,7 @@ ReactDOM.render(<App />, document.querySelector('#app'));
 ```
 
 Yes, it's really all you need to get started! Try it in:
-[![CodeSandBOX](https://codesandbox.io/)
+[CodeSandBOX](https://codesandbox.io/)
 
 ## License
 
