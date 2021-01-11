@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://mpds.f3m.pt/" rel="noopener" target="_blank"><img width="150" src="https://imgur.com/OANOfLI" alt="MPDS logo"></a></p>
+  <a href="https://mpds.f3m.pt/" rel="noopener" target="_blank"><img width="150" src="https://i.imgur.com/OANOfLI.png" alt="MPDS logo"></a></p>
 </p>
 
 <h1 align="center">MpDS TextField</h1>
@@ -24,7 +24,7 @@
 
 ## Installation
 
-Material-UI is available as an [npm package](https://www.npmjs.com/package/@material-ui/core).
+MpDS TextField is available as an [npm package](https://www.npmjs.com/package/mpds-textfield-f3m).
 
 ```sh
 // with npm
