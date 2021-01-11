@@ -205,7 +205,9 @@ ReactDOM.render(<App />, document.querySelector('#app'));
 <br>
 Yes, it's really all you need to get started! Try it in:
 [CodeSandbox](https://codesandbox.io/)
+
 <br>
+
 ## License
 
 No License. "(...) nobody else can copy, distribute, or modify your work without being at risk of take-downs, shake-downs, or litigation."
